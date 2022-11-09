@@ -1,0 +1,232 @@
+/* photo resources */
+/* https://unsplash.com/@zackxphoto */
+/* Photo by <a href="https://unsplash.com/@zackxphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zack Xavier</a> on <a href="https://unsplash.com/@zackxphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+/* Photo by <a href="https://unsplash.com/@zackxphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Zack Xavier</a> on <a href="https://unsplash.com/@zackxphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+
+/* Photo by <a href="https://unsplash.com/@kronemberger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isabela Kronemberger</a> on <a href="https://unsplash.com/s/photos/service?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+/* Photo by <a href="https://unsplash.com/@kronemberger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Isabela Kronemberger</a> on <a href="https://unsplash.com/s/photos/service?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+/* Photo by <a href="https://unsplash.com/@freegraphictoday?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">AbsolutVision</a> on <a href="https://unsplash.com/s/photos/service?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+/* Photo by <a href="https://unsplash.com/@emmages?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emmanuel Ikwuegbu</a> on <a href="https://unsplash.com/s/photos/service?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+/* Photo by <a href="https://unsplash.com/@kostanayphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kate Ibragimova</a> on <a href="https://unsplash.com/s/photos/service?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+/* Photo by <a href="https://unsplash.com/@themephotos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Theme Photos</a> on <a href="https://unsplash.com/s/photos/painting-wall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+
+body{
+  font-family: "Montserrat";
+  font-weight: 100;
+
+}
+
+#title{
+  /* background-color: #008E89; */
+  color: #fff;
+
+
+}
+
+/* Here we used cobining selectors, if there is a sapce between selectors
+like what we have here in below then we should read from right to left. when
+there is a space between two selectors it means they are in hieraricl level,
+but if there is not space between two selectors e.g: h1.icon thsi means that
+the icon class and h1 are in the same line and are not hierarical infact they
+are not parent and child, they are on teh same line */
+
+#title .container-fluid{
+  padding: 5% 15% 7%;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+/* change the first and seconf h2 */
+.cahnge-font-h2{
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
+  padding: 7% 15%;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+/* .container-fluid{
+  padding: 3% 15% 7%;
+} */
+
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+
+}
+
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+
+/* Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+
+}
+
+/* images */
+.first-image{
+  border-radius: 10%;
+  transform: rotate(20deg);
+  /* here we make the images to be 100% of its div */
+  /* width: 100%; */
+  width: 25%;
+  margin-left: 2.1%;
+/* here we make the position absolute to hid the photo under the feature part */
+  position: absolute;
+}
+
+.second-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.press-image{
+  border-radius: 20%;
+  margin: 8% 2% 10%;
+}
+/* features */
+#features{
+  padding: 7% 15%;
+/* background-color: #fff; */
+/* z-index only works when we have position!! */
+position: relative;
+z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  font-size: 1;
+}
+.icon{
+  margin-bottom: 1rem;
+  color: #085E7D;
+}
+.icon:hover{
+  color: #FFD32D;
+}
+
+/* testimonial section */
+#testimonials{
+
+  text-align: center;
+  background-color: #085E7D;
+  color: #fff;
+}
+
+#press{
+  background-color: #085E7D;
+  padding-left: 20%;
+}
+
+.carasoul-item{
+  padding: 7% 15%;
+}
+/* pricing section */
+#pricing{
+  padding: 10%;
+  text-align: center;
+  /* background-color: #fff; */
+}
+.pricing-column{
+  padding: 3% 3%;
+
+}
+.card-header{
+  background-color: #085E7D;
+}
+.btn-card{
+  background-color: #085E7D;
+}
+.header-color{
+  color: #fff;
+}
+
+
+
+/* section */
+
+.white-section{
+background-color: #fff;
+}
+
+.colored-section{
+  background-color: #008E89;
+}
+
+/* we want to amke our website responsive so here we want our first image to be
+ aligned with the size of screen when it is on size of tablet or mobile so we
+  use media query to align it with smaller size.media quesry is query which
+  checks to see if sth is true or not. it means it provides a condition
+  forexample here it is saying if the screen is less thatn 990 then do the conditions */
+@media (max-width: 990px){
+  /* #title{
+    text-align: center;
+  } */
+  .center{
+    text-align: center;
+  }
+  .first-image{
+    position: static;
+    transform: rotate(0);
+    width:60%;
+
+  }
+}
+
+/* call to action */
+#cta{
+  /* background-color: #008E89; */
+  text-align: center;
+  padding: 7% 15%;
+  color: #fff;
+}
+.cta-heading{
+  font-family: "Montserrat"
+  font-weight:Bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+
+}
+
+/* foote */
+#footer{
+  text-align: center;
+  /* background-color: #fff; */
+  padding: 7% 15%;
+}
+.footer-icon{
+  margin: 2%;
+}
